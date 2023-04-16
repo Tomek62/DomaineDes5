@@ -1,0 +1,49 @@
+#nosVins{
+    width: 85%;
+    margin: 100px auto;
+    min-height: 400px;
+    /* background-color: rgb(221, 231, 231); */
+    background-color: #e4e4d3;
+    border-radius: 7.5px;
+}
+#nosVins .container h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+#nosVins .container{
+    width: 70%;
+    margin:  auto;
+    text-align: center;
+    padding: 70px;
+}
+#nosVins .content .logo{
+    height: 80px;
+}
+#nosVins .container .images{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+#nosVins .container img{
+    margin: 10px;
+    height: 200px;
+    border-radius:3px ;
+}
+#nosVins .container p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+}
+
+#nosVins .container button{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #33a333;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+#nosVins .container button:hover{
+    transform: scale(1.04);
+    transition-duration:0.3s ;
+}

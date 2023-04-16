@@ -1,0 +1,45 @@
+footer{
+    background-color: #e4e4d3;
+    padding-bottom: 40px;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: 45% 50%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.left-part h2,.right-part h3{
+    font-family: 'Allura', cursive;
+    font-size: 2.3rem;
+}
+.left-part p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    text-align: left;
+}
+
+.right-part{
+    text-align: center;
+}
+.right-part ul{
+    width: 70%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.right-part ul li{
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.right-part ul li:hover{
+    transform: scale(1.08);
+}
+
+footer p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,37 @@
+#description{
+    width: 85%;
+    margin: 100px auto;
+}
+#description .container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    min-height: 400px;
+    text-align: center;
+}
+
+#description .container img{
+    height: 100px;
+}
+#description .container h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+#description .container p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 35px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+#description .container button{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #33a333;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+#description .container button:hover{
+    transform: scale(1.04);
+    transition-duration:0.3s ;
+}

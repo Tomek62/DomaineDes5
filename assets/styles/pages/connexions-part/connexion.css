@@ -1,0 +1,121 @@
+header{
+    height: 10vh;
+}
+header i{
+    font-size: 3rem;
+    color: black;
+    padding: 70px;
+}
+
+main{
+    height: 90vh;
+    text-align: center;
+}
+main .container{
+    background-color: #e4e4d3;
+    border-radius: 20px;
+    min-width: 100px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid black;
+    min-height: 750px;
+    max-height: 1100px;
+    padding: 30px ;
+    position: relative;
+}
+
+main .container img{
+    height: 130px;
+    transform: translateX(10px);
+}
+
+main .container h1{
+    font-family: 'Poppins', sans-serif;
+}
+main .container form{
+    width: 60%;
+    margin: 30px auto;
+}
+main .container form .input-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: -10px;
+   line-height: 40px;
+   margin-bottom: 40px;
+}
+
+main .container form .input-container label{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+main .container form .input-container #email, #password{
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+main .container form  #submit{
+    width: 40%;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #33a333;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+main .container form  #submit:hover{
+    transform: scale(1.04);
+    transition-duration:0.3s ;
+}
+
+h3{
+    font-family:  'Poppins', sans-serif;
+    font-size: 1.6rem;
+    margin: 50px auto;
+    position: relative;
+}
+h3::before{
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 30px;
+    width: 40%;
+    height: 2px;
+    background-color: black;
+}
+
+h3::after{
+    content: "";
+    position: absolute;
+    top: 17px;
+    right: 30px;
+    width: 40%;
+    height: 2px;
+    background-color: black;
+}
+
+ul{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul li{
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+p{
+    font-family:  'Poppins', sans-serif;
+    font-size: 1.1rem;
+    position: absolute;
+    bottom: 15px;
+    color: black;
+    left: 40%;
+}

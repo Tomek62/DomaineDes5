@@ -1,0 +1,8 @@
+page Accueil comportant plusieurs parties : 
+-nosVins (petit résumé ) qui peut emmener vers une nouvelle page (à voir si utile) de tous les vins (nos-vins.html)
+-notreDomaine (manque partie de droite avec photos déroulantes)
+-à propos de nous à faire
+
+Reste a finir:
+partie inscriprtion et connexion deja entamé
+et page des chambres
